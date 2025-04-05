@@ -21,14 +21,3 @@ const element = <h1>Hello, world!</h1>
 
 // 변환된 JS (JSX 미사용)
 const element = React.createElement("h1", null, "Hello, world!")
-
-✅ 기본 문법
-HTML과 JS를 함께 사용할 수 있으며, JS 코드는 중괄호 {} 안에 작성
-
-const name = "React";
-const element = <h1>Hello, {name}!</h1>;
-
-✅ 속성에 변수/함수 넣기
-
-const link = "https://reactjs.org";
-const element = <a href={link}>React 공식 문서</a>;
