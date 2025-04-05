@@ -19,5 +19,5 @@ JSX는 내부적으로 React.createElement() 함수로 변환됨
 ```// JSX 사용
 const element = <h1>Hello, world!</h1>
 
-```// 변환된 JS (JSX 미사용)
+// 변환된 JS (JSX 미사용)
 const element = React.createElement("h1", null, "Hello, world!")
