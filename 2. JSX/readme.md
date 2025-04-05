@@ -17,10 +17,10 @@ JSX는 내부적으로 React.createElement() 함수로 변환됨
 브라우저는 JSX를 직접 이해하지 못하기 때문에 바벨(Babel) 등을 사용해 변환해야 함
 
 // JSX 사용
-const element = <h1>Hello, world!</h1>;
+const element = <h1>Hello, world!</h1>
 
 // 변환된 JS (JSX 미사용)
-const element = React.createElement("h1", null, "Hello, world!");
+const element = React.createElement("h1", null, "Hello, world!")
 
 ✅ 기본 문법
 HTML과 JS를 함께 사용할 수 있으며, JS 코드는 중괄호 {} 안에 작성
