@@ -1,5 +1,6 @@
 ## 파일구조
 
+
 📁 MINI-BLOG/
 ├── 📦 node_modules/
 ├── 🌐 public/
