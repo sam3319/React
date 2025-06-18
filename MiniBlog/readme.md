@@ -1,6 +1,6 @@
 ## 파일구조
 
-
+```
 📁 MINI-BLOG/
 ├── 📦 node_modules/
 ├── 🌐 public/
@@ -46,3 +46,4 @@
 ├── 🔒 package-lock.json
 ├── 📦 package.json
 └── 📖 README.md
+```
